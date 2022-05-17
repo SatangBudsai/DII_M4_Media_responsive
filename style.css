@@ -1,0 +1,23 @@
+.set-0{
+    padding: 0;
+    margin: 0;
+}
+.card>img {
+    margin: 0.8rem;
+    padding: 0.8rem;
+    height: 20vh;
+    object-fit: contain;
+}
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 20rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 10rem;
+        margin-right: 2rem;
+    }
+}
